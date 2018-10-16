@@ -27,13 +27,13 @@ String Builder
 
 In this I built the String Builder for c++ class and its basic operations like append O(1),initialisation O(1) and findSubtring O(n) for this I used KMP algo.
 
-In this we tree dataStructure and each substring add as a node , When we want to print the string just traverse Inorder.
+In this I used tree dataStructure and each substring add as a node , When we just want to print the string then just do  Inorder traversal on tree.
 
 Unordered_Map
 ---
 
 In this ,I implemented the basic STL unordered_Map and its basic functionalities like remove,find,insert. 
 
-In this internally we used the HASH Table. For string I used hash Table DJB2 and for int I used Mid square method. 
+In this internally we used the HASH Table and you can change the Table Size. For string I used hashing method DJB2 and for int I used Mid square method. 
 
 This Unordered_Map is generic means , It can work for any datatype but you just need to define its hash function inside Hash class.
